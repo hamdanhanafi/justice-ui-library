@@ -61,7 +61,7 @@ export const FieldLabel = ({
           data-tip={DOMPurify.sanitize(React.isValidElement(tooltip) ? renderToString(tooltip) : tooltip)}
           data-html={true}
         />
-        <ReactTooltip effect="solid" id="field-label__tooltip" />
+        <ReactTooltip effect="solid" id="field-label__tooltip" isCapture />
       </>
     )}
   </label>
